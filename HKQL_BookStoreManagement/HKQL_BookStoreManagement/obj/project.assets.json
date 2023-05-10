@@ -8,23 +8,23 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\kp\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\3rd Year\\HK2\\TKPM\\Final Project\\SoftwareDesign_BookStoreManagementApplication_HKQLGroup\\HKQL_BookStoreManagement\\HKQL_BookStoreManagement\\HKQL_BookStoreManagement.csproj",
+      "projectUniqueName": "C:\\Users\\kp\\Desktop\\TKPM\\SoftwareDesign_BookStoreManagementApplication_HKQLGroup\\HKQL_BookStoreManagement\\HKQL_BookStoreManagement\\HKQL_BookStoreManagement.csproj",
       "projectName": "HKQL_BookStoreManagement",
-      "projectPath": "D:\\Study\\3rd Year\\HK2\\TKPM\\Final Project\\SoftwareDesign_BookStoreManagementApplication_HKQLGroup\\HKQL_BookStoreManagement\\HKQL_BookStoreManagement\\HKQL_BookStoreManagement.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Study\\3rd Year\\HK2\\TKPM\\Final Project\\SoftwareDesign_BookStoreManagementApplication_HKQLGroup\\HKQL_BookStoreManagement\\HKQL_BookStoreManagement\\obj\\",
+      "projectPath": "C:\\Users\\kp\\Desktop\\TKPM\\SoftwareDesign_BookStoreManagementApplication_HKQLGroup\\HKQL_BookStoreManagement\\HKQL_BookStoreManagement\\HKQL_BookStoreManagement.csproj",
+      "packagesPath": "C:\\Users\\kp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kp\\Desktop\\TKPM\\SoftwareDesign_BookStoreManagementApplication_HKQLGroup\\HKQL_BookStoreManagement\\HKQL_BookStoreManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,7 +33,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
