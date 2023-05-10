@@ -4,10 +4,134 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HKQL_BookStoreManagement"
+        xmlns:viewModel="clr-namespace:HKQL_BookStoreManagement.MVVM.ViewModel"
         mc:Ignorable="d"
-        Icon="Images/icon.ico"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Height="600" Width="920"
+        Background="Transparent"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        Icon="Images/icon.ico">
 
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Border Grid.ColumnSpan="2" Grid.RowSpan="2"
+                Background="#FFF1F4FA"
+                CornerRadius="20" />
+
+        <Border BorderBrush="#FF3A36DB" BorderThickness="0 0 0 1"
+                Grid.ColumnSpan="2">
+            <Border.InputBindings>
+                <MouseBinding MouseAction="LeftClick" Command="{Binding DragWindowCommand}" />
+            </Border.InputBindings>
+            <Grid HorizontalAlignment="Stretch">
+                <!--Row = 0, Column = 0-->
+                <Label Content="Book Management Application" Padding="20 4 0 0"
+                       FontSize="16" Foreground="#FF3A36DB" Width="920" />
+                <!--Row = 0, Column = 1-->
+                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal"
+                            Margin="0 0 20 0">
+                    <Button Width="24" Height="24" Margin="0 0 8 0"
+                            Content="_"
+                            Foreground="#FF3A36DB"
+                            BorderBrush="#FF3A36DB"
+                            BorderThickness="1"
+                            Background="Transparent" Command="{Binding MinimizedWindowCommand}"></Button>
+                    <Button Width="24" Height="24" Margin="0 0 8 0"
+                            Content="□"
+                            Foreground="#FF3A36DB"
+                            BorderBrush="#FF3A36DB"
+                            BorderThickness="1"
+                            Background="Transparent" Command="{Binding WindowStateCommand}"></Button>
+                    <Button Width="24" Height="24" Margin="0 0 8 0"
+                            Content="⨉"
+                            Foreground="#FF3A36DB"
+                            BorderBrush="#FF3A36DB"
+                            BorderThickness="1"
+                            Background="Transparent" Command="{Binding ExitWindowCommand}"></Button>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!--Navigation Bar-->
+        <Border Grid.Row="1"
+                BorderBrush="#883A36DB"
+                BorderThickness="0 0 1 0"
+                CornerRadius="0 8 8 0">
+            <StackPanel>
+                <Image Source="Images/logo.png"
+                   Width="100"
+                   Height="52"
+                   Margin="0 32 0 0"/>
+                <TextBlock Foreground="#FF3A36DB"
+                           FontSize="16" FontWeight="DemiBold"
+                           HorizontalAlignment="Center"
+                           Margin="0 0 0 16">
+                    <Run Text="HKQL Group"/>
+                </TextBlock>
+
+                <RadioButton Name="Dashboard"
+                             Content="&#xf015;"
+                             Height="50" FontSize="12"
+                             Style="{StaticResource MenuButtonTheme}"
+                             IsChecked="{Binding DashboardIsSelected}"
+                             Command="{Binding }">
+                </RadioButton>
+                <RadioButton Name="Products"
+                             Content="&#xf02d;"
+                             Height="50"
+                             IsChecked="{Binding ProductIsSelected}"
+                             Foreground="Black" FontSize="12"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding }">
+                </RadioButton>
+                <RadioButton Name="Categories"
+                             Content="&#xf02c;"
+                             Height="50"
+                             IsChecked="{Binding CategoryIsSelected}"
+                             Foreground="Black" FontSize="12"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding }" />
+                <RadioButton Name="Orders"
+                             Content="&#xf07a;"
+                             Height="50"
+                             IsChecked="{Binding OrderIsSelected}"
+                             Foreground="Black" FontSize="12"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding }"/>
+                <RadioButton Name="Statistical"
+                             Content="&#xf080;"
+                             Height="50"
+                             IsChecked="{Binding SalesReportIsSelected}"
+                             Foreground="Black" FontSize="12"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding }" />
+
+                <RadioButton Name="Logout"
+                             Content="&#xf2f5;"
+                             Height="50"
+                             Foreground="Black" FontSize="12"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding }" />
+            </StackPanel>
+        </Border>
+
+        <!--Content-->
+        <ContentControl Grid.Row="1" Grid.Column="1"
+                            Margin="12,12,12,12"
+                            Content="{Binding CurrentView}"></ContentControl>
     </Grid>
 </Window>

@@ -8,18 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\fontawesome5.otf" />
+    <None Remove="Fonts\password.ttf" />
     <None Remove="Images\icon.ico" />
+    <None Remove="Images\logo.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="MVVM\Model\" />
-    <Folder Include="MVVM\ViewModel\" />
-    <Folder Include="MVVM\View\" />
-    <Folder Include="Themes\" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Fonts\fontawesome5.otf" />
+    <Resource Include="Fonts\password.ttf" />
     <Resource Include="Images\icon.ico" />
+    <Resource Include="Images\logo.png" />
   </ItemGroup>
 
 </Project>
