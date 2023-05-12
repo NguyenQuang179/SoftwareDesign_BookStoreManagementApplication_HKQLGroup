@@ -61,7 +61,7 @@ namespace HKQL_BookStoreManagement {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/HKQL_BookStoreManagement;V1.0.0.0;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HKQL_BookStoreManagement;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -20,10 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="MVVM\Model\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="BookImages\book1.jpg" />
     <Resource Include="BookImages\book2.jpg" />
     <Resource Include="BookImages\book3.jpg" />
