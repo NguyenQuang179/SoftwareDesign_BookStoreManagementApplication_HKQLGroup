@@ -88,7 +88,7 @@
                              Height="50" FontSize="12"
                              Style="{StaticResource MenuButtonTheme}"
                              IsChecked="{Binding DashboardIsSelected}"
-                             Command="{Binding }">
+                             Command="{Binding DashboardViewCommand}">
                 </RadioButton>
                 <RadioButton Name="Products"
                              Content="&#xf02d;"
@@ -118,7 +118,7 @@
                              IsChecked="{Binding SalesReportIsSelected}"
                              Foreground="Black" FontSize="12"
                              Style="{StaticResource MenuButtonTheme}"
-                             Command="{Binding }" />
+                             Command="{Binding SalesReportViewCommand}" />
 
                 <RadioButton Name="Logout"
                              Content="&#xf2f5;"

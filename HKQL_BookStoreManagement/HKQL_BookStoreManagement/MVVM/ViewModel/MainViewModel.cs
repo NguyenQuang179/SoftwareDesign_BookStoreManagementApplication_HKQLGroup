@@ -75,7 +75,11 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
 
         public RelayCommand DashboardViewCommand { get; set; }
 
+        public RelayCommand SalesReportViewCommand { get; set; }
+
         public DashboardViewModel DashboardVM { get; set; }
+
+        public SalesReportViewModel SalesReportVM { get; set; }
 
         private object _currentView;
 
@@ -92,6 +96,8 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
         public MainViewModel() {
 
             DashboardVM = new DashboardViewModel();
+
+            SalesReportVM = new SalesReportViewModel();
 
             CurrentView = DashboardVM;
 
@@ -126,6 +132,20 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
             ExitWindowCommand = new RelayCommand(o =>
             {
                 Application.Current.Shutdown();
+            });
+
+            DashboardViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = DashboardVM;
+                DashboardIsSelected = true;
+                //DashboardVM.CallData.Execute(null);
+            });
+
+            SalesReportViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = SalesReportVM;
+                SalesReportIsSelected = true;
+                //SalesReportVM.CallData.Execute(null);
             });
         }
     }

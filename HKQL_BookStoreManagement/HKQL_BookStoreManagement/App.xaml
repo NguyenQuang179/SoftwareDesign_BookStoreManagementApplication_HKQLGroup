@@ -14,6 +14,10 @@
             <DataTemplate DataType="{x:Type viewModel:DashboardViewModel}">
                 <view:DashboardView />
             </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:SalesReportViewModel}">
+                <view:SalesReportView />
+            </DataTemplate>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
