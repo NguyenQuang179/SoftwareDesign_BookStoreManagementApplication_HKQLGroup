@@ -18,6 +18,15 @@
     <Page Update="MVVM\View\DashboardView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="MVVM\View\OrderAddBookView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\OrderCreateView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\OrderDetailView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\MenuButtonTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
