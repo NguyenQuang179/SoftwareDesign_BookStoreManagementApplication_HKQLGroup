@@ -1,5 +1,7 @@
 ﻿using HKQL_BookStoreManagement.Core;
 using LiveCharts;
+using LiveCharts.Wpf;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;

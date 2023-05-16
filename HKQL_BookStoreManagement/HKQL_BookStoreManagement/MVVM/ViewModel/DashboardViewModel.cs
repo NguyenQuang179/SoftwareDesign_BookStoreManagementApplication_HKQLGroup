@@ -9,6 +9,8 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using HKQL_BookStoreManagement.MVVM.Model;
 
 namespace HKQL_BookStoreManagement.MVVM.ViewModel
 {
@@ -156,12 +158,12 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
 
             CategoryViewCommand = new RelayCommand(o =>
             {
-                MainVM.CategoryManagementViewCommand.Execute(null);
+                //MainVM.CategoryManagementViewCommand.Execute(null);
             });
 
             ProductViewCommand = new RelayCommand(o =>
             {
-                MainVM.ProductListViewCommand.Execute(null);
+                //MainVM.ProductListViewCommand.Execute(null);
             });
 
             SalesReportCommand = new RelayCommand(o =>
@@ -169,4 +171,5 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
                 MainVM.SalesReportViewCommand.Execute(null);
             });
         }
+    }
 }
