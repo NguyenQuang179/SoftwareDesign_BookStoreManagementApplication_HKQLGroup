@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Rzo5iTCG9GyyNTxBEpB3ZgifJnJJEXvbbdR8KPZZds7KnqfH0jUUMik813h3dXsPv52dP8S62/VvMj349JuqLQ==",
+  "dgSpecHash": "yjAW617Nv5CkRzop3n44AW2cuGneW9BfKmWZhJbGrGm1wqSW4vKRtCduoZS2kHtOCua29KR8F2HXN5yKldueqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kp\\Desktop\\TKPM\\SoftwareDesign_BookStoreManagementApplication_HKQLGroup\\HKQL_BookStoreManagement\\HKQL_BookStoreManagement\\HKQL_BookStoreManagement.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kp\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\kp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\kp\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\kp\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
