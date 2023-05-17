@@ -95,7 +95,7 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
 
         public MainViewModel() {
 
-            DashboardVM = new DashboardViewModel();
+            DashboardVM = new DashboardViewModel(this);
 
             SalesReportVM = new SalesReportViewModel();
 
