@@ -33,7 +33,7 @@
     <Page Update="MVVM\View\LoginView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MVVM\View\SalesReportView.xaml">
+    <Page Update="MVVM\View\SalesReportView.xaml"/>
     <Page Update="MVVM\View\OrderAddBookView.xaml">
       <SubType>Designer</SubType>
     </Page>

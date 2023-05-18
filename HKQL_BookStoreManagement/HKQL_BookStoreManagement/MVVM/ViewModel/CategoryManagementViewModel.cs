@@ -1,5 +1,4 @@
-﻿using HMQL_Project01_QuanLyBanHang.Core;
-using HMQL_Project01_QuanLyBanHang.MVVM.Model;
+﻿using HKQL_BookStoreManagement.MVVM.Model;
 using LiveCharts.Maps;
 using LiveCharts.Wpf;
 using LiveCharts;
@@ -12,8 +11,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using HKQL_BookStoreManagement.Core;
 
-namespace HMQL_Project01_QuanLyBanHang.MVVM.ViewModel
+namespace HKQL_BookStoreManagement.MVVM.ViewModel
 {
     class CategoryManagementViewModel : ObservableObject
     {

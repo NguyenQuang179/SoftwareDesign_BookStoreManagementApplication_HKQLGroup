@@ -1,5 +1,4 @@
-﻿using HMQL_Project01_QuanLyBanHang.Core;
-using HMQL_Project01_QuanLyBanHang.MVVM.Model;
+﻿using HKQL_BookStoreManagement.MVVM.Model;
 using LiveCharts.Wpf;
 using LiveCharts;
 using Newtonsoft.Json;
@@ -12,10 +11,11 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Collections.Specialized;
 using System.Windows.Controls;
-using HMQL_Project01_QuanLyBanHang.MVVM.View;
+using HKQL_BookStoreManagement.MVVM.View;
 using System.Security.Policy;
+using HKQL_BookStoreManagement.Core;
 
-namespace HMQL_Project01_QuanLyBanHang.MVVM.ViewModel
+namespace HKQL_BookStoreManagement.MVVM.ViewModel
 {
 
     class OrderMangementViewModel : ObservableObject

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HMQL_Project01_QuanLyBanHang.MVVM.Model
+namespace HKQL_BookStoreManagement.MVVM.Model
 {
 
     public class BookInOrder

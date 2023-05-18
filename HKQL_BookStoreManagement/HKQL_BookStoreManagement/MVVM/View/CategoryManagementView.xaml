@@ -1,11 +1,11 @@
-﻿<UserControl x:Class="HMQL_Project01_QuanLyBanHang.MVVM.View.CategoryManagementView"
+﻿<UserControl x:Class="HKQL_BookStoreManagement.MVVM.View.CategoryManagementView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:HMQL_Project01_QuanLyBanHang.MVVM.View"
+             xmlns:local="clr-namespace:HKQL_BookStoreManagement.MVVM.View"
              xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" 
-             xmlns:viewmodel="clr-namespace:HMQL_Project01_QuanLyBanHang.MVVM.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:CategoryManagementViewModel}"
+             xmlns:viewmodel="clr-namespace:HKQL_BookStoreManagement.MVVM.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:CategoryManagementViewModel}"
              mc:Ignorable="d" 
              d:DesignHeight="544" d:DesignWidth="776">
     

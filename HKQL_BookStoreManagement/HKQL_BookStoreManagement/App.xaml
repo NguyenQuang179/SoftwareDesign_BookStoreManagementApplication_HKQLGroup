@@ -22,6 +22,41 @@
             <DataTemplate DataType="{x:Type viewModel:SalesReportViewModel}">
                 <view:SalesReportView />
             </DataTemplate>
+
+            <!--<DataTemplate DataType="{x:Type viewModel:ProductListViewModel}">
+                <view:ProductListView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:ProductViewModel}">
+                <view:ProductView />
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:ProductAddViewModel}">
+                <view:ProductAddView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:OrderMangementViewModel}">
+                <view:OrderManagementView />
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:OrderDetailViewModel}">
+                <view:OrderDetailView />
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:OrderCreateViewModel}">
+                <view:OrderCreateView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:OrderAddBookViewModel}">
+                <view:OrderAddBookView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:CategoryManagementViewModel}">
+                <view:CategoryManagementView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:CategoryDetailViewModel}">
+                <view:CategoryDetailView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:CategoryCreateViewModel}">
+                <view:CategoryCreateView/>
+            </DataTemplate>-->
         </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -1,4 +1,4 @@
-﻿using HMQL_Project01_QuanLyBanHang.Core;
+﻿using HKQL_BookStoreManagement.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
 using System.Collections.ObjectModel;
-using HMQL_Project01_QuanLyBanHang.MVVM.Model;
 using LiveCharts;
 using LiveCharts.Wpf;
 using Newtonsoft.Json;
@@ -17,11 +16,11 @@ using System.Windows.Controls;
 using Xceed.Wpf.Toolkit;
 using static System.Reflection.Metadata.BlobBuilder;
 using System.ComponentModel;
+using HKQL_BookStoreManagement.MVVM.Model;
 
-namespace HMQL_Project01_QuanLyBanHang.MVVM.ViewModel
+namespace HKQL_BookStoreManagement.MVVM.ViewModel
 {
 
-    
     public class BookItemOrderInfo : Book, INotifyPropertyChanged
     {
         private bool isSelected;

@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace HMQL_Project01_QuanLyBanHang.MVVM.View
+namespace HKQL_BookStoreManagement.MVVM.View
 {
     /// <summary>
     /// Interaction logic for CategoryDetailView.xaml

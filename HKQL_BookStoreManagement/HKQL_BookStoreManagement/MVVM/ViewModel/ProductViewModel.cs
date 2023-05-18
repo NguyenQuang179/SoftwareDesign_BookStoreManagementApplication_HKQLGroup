@@ -7,6 +7,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 using System.Windows.Media;
+using System.Windows;
+using HKQL_BookStoreManagement.MVVM.Model;
+using System.Net.Http;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace HKQL_BookStoreManagement.MVVM.ViewModel
 {
