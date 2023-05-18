@@ -10,12 +10,6 @@
     <Compile Update="MVVM\View\DashboardView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MVVM\View\ProductListView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="MVVM\View\ProductView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
@@ -24,10 +18,13 @@
     <Page Update="MVVM\View\DashboardView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MVVM\View\ProductListView.xaml">
+    <Page Update="MVVM\View\OrderAddBookView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MVVM\View\ProductView.xaml">
+    <Page Update="MVVM\View\OrderCreateView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\OrderDetailView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Themes\MenuButtonTheme.xaml">

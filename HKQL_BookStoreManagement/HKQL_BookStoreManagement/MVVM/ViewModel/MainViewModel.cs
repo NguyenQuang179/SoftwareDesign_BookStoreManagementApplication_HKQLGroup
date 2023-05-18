@@ -1,4 +1,5 @@
 ﻿using HKQL_BookStoreManagement.Core;
+using HMQL_Project01_QuanLyBanHang.MVVM.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,26 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
 
         public RelayCommand ExitWindowCommand { get; set; }
 
+
+        //Order
+        public RelayCommand OrderManagementViewCommand { get; set; }
+
+        public RelayCommand OrderDetailViewCommand { get; set; }
+        public RelayCommand OrderAddBookViewCommand { get; set; }
+        public RelayCommand OrderAddViewCommand { get; set; }
+
+        //Category
+        public RelayCommand CategoryManagementViewCommand { get; set; }
+
+
+        //COrder
+        public OrderMangementViewModel OrderManagementVM { get; set; }
+
+        public OrderDetailViewModel ORderDetailVM { get; set; }
+        public OrderAddBookViewModel OrderAddBookVM { get; set; }
+
+        //Category
+        public CategoryManagementViewModel CategoryManagementVM { get; set; }
         public RelayCommand ProductListViewCommand { get; set; }
         //Product
         public ProductListViewModel ProductListVM { get; set; }
@@ -95,6 +116,8 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
             }
         }
 
+
+
         public MainViewModel() {
 
             DashboardVM = new DashboardViewModel();
@@ -136,6 +159,23 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
                 Application.Current.Shutdown();
             });
 
+            //Order
+            OrderManagementViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = OrderManagementVM;
+                OrderIsSelected = true;
+            });
+            OrderAddBookViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = OrderAddBookVM;
+                OrderIsSelected = true;
+            });
+            //Category
+            CategoryManagementViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = CategoryManagementVM;
+                CategoryIsSelected = true;
+            });
             ProductListViewCommand = new RelayCommand(o =>
             {
                 CurrentView = ProductListVM;
