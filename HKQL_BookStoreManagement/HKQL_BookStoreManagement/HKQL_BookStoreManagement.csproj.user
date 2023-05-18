@@ -34,6 +34,13 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\View\SalesReportView.xaml">
+    <Page Update="MVVM\View\OrderAddBookView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\OrderCreateView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\OrderDetailView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Themes\MenuButtonTheme.xaml">

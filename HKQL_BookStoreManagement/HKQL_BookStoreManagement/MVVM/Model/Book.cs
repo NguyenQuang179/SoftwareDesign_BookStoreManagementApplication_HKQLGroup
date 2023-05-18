@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HKQL_BookStoreManagement.MVVM.ViewModel
+namespace HKQL_BookStoreManagement.MVVM.Model
 {
     public class Book
     {
@@ -18,24 +18,5 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
         public int stock { get; set; }
         public string category { get; set; }
         public string __v { get; set; }
-
     }
 }
-
-// namespace BookDataBinding
-// {
-//     public class Book : INotifyPropertyChanged, ICloneable
-//     {
-//         public String Name { get; set; }
-//         public String Cover { get; set; }
-//         public String Author { get; set; }
-//         public String PublishedYear { get; set; }
-
-//         public event PropertyChangedEventHandler? PropertyChanged;
-
-//         public object Clone()
-//         {
-//             return MemberwiseClone();
-//         }
-//     }
-// }
