@@ -353,9 +353,9 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
                             var image_uri = new Uri($"{ConnectionString.connectionString}/getImg/{Data.book.imagePath}");
                             var responseImg = await client.GetAsync(image_uri);
                             var imageStream = await responseImg.Content.ReadAsStringAsync();
-                            var dataImg = JsonConvert.DeserializeObject<Img>(imageStream);
+                            //var dataImg = JsonConvert.DeserializeObject<Img>(imageStream);
 
-                            ImagePath = BytesToImage.ConvertToImage(dataImg.data.data);
+                            //ImagePath = BytesToImage.ConvertToImage(dataImg.data.data);
                         }
                         else
                         {
