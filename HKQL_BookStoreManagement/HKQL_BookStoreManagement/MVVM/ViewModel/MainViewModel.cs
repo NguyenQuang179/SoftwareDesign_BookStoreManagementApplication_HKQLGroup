@@ -18,6 +18,12 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
 
         public RelayCommand ExitWindowCommand { get; set; }
 
+        public RelayCommand ProductListViewCommand { get; set; }
+        //Product
+        public ProductListViewModel ProductListVM { get; set; }
+
+        public ProductAddViewModel ProductAddVM { get; set; }
+
         private bool dashboardIsSelected;
         public bool DashboardIsSelected
         {
@@ -92,6 +98,8 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
         public MainViewModel() {
 
             DashboardVM = new DashboardViewModel();
+            //Product
+            ProductListVM = new ProductListViewModel(this);
 
             CurrentView = DashboardVM;
 
@@ -127,6 +135,13 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
             {
                 Application.Current.Shutdown();
             });
+
+            ProductListViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = ProductListVM;
+                ProductIsSelected = true;
+            });
+
         }
     }
 }
