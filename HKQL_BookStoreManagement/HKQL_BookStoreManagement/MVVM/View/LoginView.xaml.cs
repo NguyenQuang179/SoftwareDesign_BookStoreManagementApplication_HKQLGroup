@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace HMQL_Project01_QuanLyBanHang.MVVM.View
+namespace HKQL_BookStoreManagement.MVVM.View
 {
     /// <summary>
-    /// Interaction logic for OrderDetailView.xaml
+    /// Interaction logic for LoginView.xaml
     /// </summary>
-    public partial class OrderDetailView : UserControl
+    public partial class LoginView : UserControl
     {
-        public OrderDetailView()
+        public LoginView()
         {
             InitializeComponent();
         }

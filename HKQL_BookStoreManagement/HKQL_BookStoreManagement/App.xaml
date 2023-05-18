@@ -4,15 +4,23 @@
              xmlns:local="clr-namespace:HKQL_BookStoreManagement" 
              xmlns:view="clr-namespace:HKQL_BookStoreManagement.MVVM.View"
              xmlns:viewModel="clr-namespace:HKQL_BookStoreManagement.MVVM.ViewModel"
-             StartupUri="MainWindow.xaml">
+             StartupUri="MVVM/View/AuthenticationWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Themes/MenuButtonTheme.xaml" />
             </ResourceDictionary.MergedDictionaries>
 
+            <DataTemplate DataType="{x:Type viewModel:LoginViewModel}">
+                <view:LoginView />
+            </DataTemplate>
+
             <DataTemplate DataType="{x:Type viewModel:DashboardViewModel}">
                 <view:DashboardView />
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:SalesReportViewModel}">
+                <view:SalesReportView />
             </DataTemplate>
         </ResourceDictionary>
     </Application.Resources>

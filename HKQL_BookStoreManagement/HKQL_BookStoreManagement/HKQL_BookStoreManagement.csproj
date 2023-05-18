@@ -11,17 +11,24 @@
     <None Remove="Fonts\fontawesome5.otf" />
     <None Remove="Fonts\password.ttf" />
     <None Remove="Images\icon.ico" />
+    <None Remove="Images\login.jpg" />
     <None Remove="Images\logo.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="MVVM\Model\" />
+    <PackageReference Include="Expression.Blend.Sdk" Version="1.0.2" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.0" />
+    <PackageReference Include="FontAwesome" Version="4.7.0" />
+    <PackageReference Include="FontAwesome.WPF" Version="4.7.0.9" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Fonts\fontawesome5.otf" />
     <Resource Include="Fonts\password.ttf" />
     <Resource Include="Images\icon.ico" />
+    <Resource Include="Images\login.jpg" />
     <Resource Include="Images\logo.png" />
   </ItemGroup>
 
