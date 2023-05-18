@@ -11,6 +11,7 @@
     <None Remove="Fonts\fontawesome5.otf" />
     <None Remove="Fonts\password.ttf" />
     <None Remove="Images\icon.ico" />
+    <None Remove="Images\login.jpg" />
     <None Remove="Images\logo.png" />
   </ItemGroup>
 
@@ -27,6 +28,7 @@
     <Resource Include="Fonts\fontawesome5.otf" />
     <Resource Include="Fonts\password.ttf" />
     <Resource Include="Images\icon.ico" />
+    <Resource Include="Images\login.jpg" />
     <Resource Include="Images\logo.png" />
   </ItemGroup>
 

@@ -12,6 +12,5 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
         public int numOfOrderThisWeek { get; set; }
         public int numOfOrderThisMonth { get; set; }
         public List<Book> listOfBookOutOfStock { get; set; }
-
     }
 }
