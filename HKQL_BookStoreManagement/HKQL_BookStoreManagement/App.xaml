@@ -23,7 +23,7 @@
                 <view:SalesReportView />
             </DataTemplate>
 
-            <!--<DataTemplate DataType="{x:Type viewModel:ProductListViewModel}">
+            <DataTemplate DataType="{x:Type viewModel:ProductListViewModel}">
                 <view:ProductListView/>
             </DataTemplate>
 
@@ -56,7 +56,7 @@
             </DataTemplate>
             <DataTemplate DataType="{x:Type viewModel:CategoryCreateViewModel}">
                 <view:CategoryCreateView/>
-            </DataTemplate>-->
+            </DataTemplate>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

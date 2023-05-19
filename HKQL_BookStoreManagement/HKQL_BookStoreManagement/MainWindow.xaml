@@ -80,7 +80,7 @@
                            FontSize="16" FontWeight="DemiBold"
                            HorizontalAlignment="Center"
                            Margin="0 0 0 16">
-                    <Run Text="HKQL Group"/>
+                    <Run Text="HMQL Group"/>
                 </TextBlock>
 
                 <RadioButton Name="Dashboard"
@@ -96,7 +96,7 @@
                              IsChecked="{Binding ProductIsSelected}"
                              Foreground="Black" FontSize="12"
                              Style="{StaticResource MenuButtonTheme}"
-                             Command="{Binding }">
+                             Command="{Binding ProductListViewCommand}">
                 </RadioButton>
                 <RadioButton Name="Categories"
                              Content="&#xf02c;"
@@ -104,14 +104,14 @@
                              IsChecked="{Binding CategoryIsSelected}"
                              Foreground="Black" FontSize="12"
                              Style="{StaticResource MenuButtonTheme}"
-                             Command="{Binding }" />
+                             Command="{Binding CategoryManagementViewCommand}" />
                 <RadioButton Name="Orders"
                              Content="&#xf07a;"
                              Height="50"
                              IsChecked="{Binding OrderIsSelected}"
                              Foreground="Black" FontSize="12"
                              Style="{StaticResource MenuButtonTheme}"
-                             Command="{Binding }"/>
+                             Command="{Binding OrderManagementViewCommand}"/>
                 <RadioButton Name="Statistical"
                              Content="&#xf080;"
                              Height="50"
@@ -125,7 +125,7 @@
                              Height="50"
                              Foreground="Black" FontSize="12"
                              Style="{StaticResource MenuButtonTheme}"
-                             Command="{Binding }" />
+                             Command="{Binding LogOutCommand}" />
             </StackPanel>
         </Border>
 
