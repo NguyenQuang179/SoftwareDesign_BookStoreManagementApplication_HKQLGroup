@@ -8,7 +8,7 @@
              xmlns:viewmodel="clr-namespace:HKQL_BookStoreManagement.MVVM.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:CategoryManagementViewModel}"
              mc:Ignorable="d" 
              d:DesignHeight="544" d:DesignWidth="776">
-    
+
     <Grid>
         <Border Background="#FFF1F4FA"
                 CornerRadius="24"/>
@@ -92,7 +92,7 @@
                                             Cursor="Hand"
                                             Margin="8 0 0 0">
                                         <Canvas Width="16" Height="16" DockPanel.Dock="Left" Margin="0 0 16 0">
-                                          
+
 
                                             <Rectangle Width="16" Height="16" Canvas.Left="8" Canvas.Top="0" >
                                                 <Rectangle.Fill>
@@ -103,7 +103,7 @@
                                                 </Rectangle.OpacityMask>
                                             </Rectangle>
                                         </Canvas>
-                                 
+
                                         <Border.InputBindings>
                                             <MouseBinding MouseAction="LeftClick" Command="{Binding CallData}"/>
                                         </Border.InputBindings>
@@ -223,7 +223,7 @@
                                         </Style>
                                     </DataGridTextColumn.ElementStyle>
                                 </DataGridTextColumn>
-                                    <DataGridTextColumn Header="Number Of Books" 
+                                <DataGridTextColumn Header="Number Of Books" 
                                                     Binding="{Binding listOfBook.Count}"
                                                     Width="3*">
                                     <DataGridTextColumn.HeaderStyle>

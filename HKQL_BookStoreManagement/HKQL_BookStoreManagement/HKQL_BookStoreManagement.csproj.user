@@ -10,6 +10,12 @@
     <Compile Update="MVVM\View\AuthenticationWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="MVVM\View\CategoryManagementView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\View\CategoryViewManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="MVVM\View\DashboardView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -27,13 +33,19 @@
     <Page Update="MVVM\View\AuthenticationWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="MVVM\View\CategoryManagementView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\CategoryViewManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MVVM\View\DashboardView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\View\LoginView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MVVM\View\SalesReportView.xaml"/>
+    <Page Update="MVVM\View\SalesReportView.xaml" />
     <Page Update="MVVM\View\OrderAddBookView.xaml">
       <SubType>Designer</SubType>
     </Page>
