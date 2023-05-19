@@ -80,7 +80,7 @@
                            FontSize="16" FontWeight="DemiBold"
                            HorizontalAlignment="Center"
                            Margin="0 0 0 16">
-                    <Run Text="HMQL Group"/>
+                    <Run Text="HKQL Group"/>
                 </TextBlock>
 
                 <RadioButton Name="Dashboard"
