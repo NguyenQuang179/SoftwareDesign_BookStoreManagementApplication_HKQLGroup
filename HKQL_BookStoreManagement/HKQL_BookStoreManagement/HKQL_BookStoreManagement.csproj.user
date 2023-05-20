@@ -13,13 +13,13 @@
     <Compile Update="MVVM\View\CategoryManagementView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MVVM\View\CategoryViewManagement.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="MVVM\View\DashboardView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="MVVM\View\LoginView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\View\OrderDetailView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="MVVM\View\SalesReportView.xaml.cs">
@@ -36,13 +36,13 @@
     <Page Update="MVVM\View\CategoryManagementView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MVVM\View\CategoryViewManagement.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="MVVM\View\DashboardView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\View\LoginView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\OrderDetailView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\View\SalesReportView.xaml" />
@@ -50,9 +50,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\View\OrderCreateView.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="MVVM\View\OrderDetailView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Themes\MenuButtonTheme.xaml">

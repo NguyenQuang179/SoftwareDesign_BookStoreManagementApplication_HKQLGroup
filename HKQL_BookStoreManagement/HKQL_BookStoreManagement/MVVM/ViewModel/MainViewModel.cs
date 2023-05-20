@@ -51,7 +51,7 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
         //COrder
         public OrderMangementViewModel OrderManagementVM { get; set; }
 
-        public OrderDetailViewModel ORderDetailVM { get; set; }
+        public OrderDetailViewModel OrderDetailVM { get; set; }
         public OrderAddBookViewModel OrderAddBookVM { get; set; }
 
         //Category
