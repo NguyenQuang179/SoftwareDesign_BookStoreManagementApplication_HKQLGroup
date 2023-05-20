@@ -451,7 +451,7 @@ namespace HKQL_BookStoreManagement.MVVM.ViewModel
 
             UploadFileCommand = new RelayCommand(async o =>
             {
-                if (FilePath != "")
+                if (FilePath == "")
                 {
                     MessageBox.Show("Bạn phải chọn file excel trước khi upload!");
                     return;
